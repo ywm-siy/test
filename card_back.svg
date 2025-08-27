@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="655" height="930" viewBox="0 0 655 930">
+  <!-- Red full-bleed background -->
+  <rect width="100%" height="100%" fill="#b30000" />
+
+  <!-- Small white diamond repeating pattern -->
+  <defs>
+    <pattern id="diamondPattern" x="0" y="0" width="32" height="32" patternUnits="userSpaceOnUse">
+      <!-- diamond centered in 32x32 cell -->
+      <polygon points="16,0 32,16 16,32 0,16" fill="#ffffff" />
+    </pattern>
+  </defs>
+
+  <!-- fill the whole card with the pattern -->
+  <rect x="0" y="0" width="655" height="930" fill="url(#diamondPattern)" />
+</svg>
